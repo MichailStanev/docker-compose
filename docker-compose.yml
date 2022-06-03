@@ -12,7 +12,7 @@ services:
       - 8081:81
     environment:
       - NGINX_PORT=81
-      - NGINX_HOST=${DOMAIN_NAME}
+      - NGINX_HOST=141.147.63.155
     depends_on:
       - php-service
       - mariadb-service
